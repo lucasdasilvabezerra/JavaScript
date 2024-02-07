@@ -1,9 +1,9 @@
-/* //1 Métodos
+ //1 Métodos
 
 const animal = {
     nome: "Bilu",
     latir: function(){
-        console.log("au au")
+        console.log("Au! Au!")
     }
 };
 
@@ -29,6 +29,8 @@ const pessoa = {
 
 console.log(pessoa.getNome())
 pessoa.setNome("Rovaldo")
+console.log(pessoa.getNome())
+pessoa.setNome("Leonard")
 console.log(pessoa.getNome())
 
 // 3 prototype
@@ -130,6 +132,9 @@ const caminhaoDoTio = new Caminhao(16,"vermelho")
 caminhaoDoTio.descreverCaminhao()
 
 Caminhao.prototype.motor = 4.0
+const c3 = new Caminhao(6,"Verde")
+console.log(c3.motor)
+
 
 //11 Overrride
 class Humano{
@@ -143,7 +148,7 @@ const lucas = new Humano("Lucas",22)
 console.log(lucas)
 Humano.prototype.idade="Não definida"
 console.log(Humano.prototype.idade)
- */
+
 
 //12 Symbol
 
